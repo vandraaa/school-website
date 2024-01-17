@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        integrity="sha384-qLEhoHv5hFYt3Npqjx5b6TtmxSNjUvKR0yKUCf3AZcN/KCtib2mPcEMiA5I7x1Jt" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style.css">
+    <!-- <link rel="stylesheet" href="Assets/fontawesome-free-6.5.1-web/css/fontawesome.css">
+    <link rel="stylesheet" href="Assets/fontawesome-free-6.5.1-web/css/brands.css">
+    <link rel="stylesheet" href="Assets/fontawesome-free-6.5.1-web/css/solid.css"> -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.1/css/all.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: #424152;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="Assets/Img/logo.png" alt="" style="height: 35px;"> Vandra
+                School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-white">
+                    <!-- <i class="fas fa-bars" style="color: #fff;"></i> -->
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link class-active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="profile.html" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profile
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #424152;">
+                            <li><a class="dropdown-item" href="profile.html">Visi & Misi</a></li>
+                            <li><a class="dropdown-item" href="profile.html#tentangsekolah">Tentang Sekolah</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Fasilitas
+                        </a>
+                        <ul class="dropdown-menu" style="background-color: #424152;">
+                            <li><a class="dropdown-item" href="fasilitas.html">Perpustakaan</a></li>
+                            <li><a class="dropdown-item" href="fasilitas.html#ruangkelas">Ruang Kelas</a></li>
+                            <li><a class="dropdown-item" href="fasilitas.html#ruangguru">Ruang Kepsek/Guru</a></li>
+                            <li><a class="dropdown-item" href="fasilitas.html#labkomputer">Lab Komputer</a></li>
+                            <li><a class="dropdown-item" href="fasilitas.html#halsekolah">Halaman Sekolah</a></li>
+                            <li><a class="dropdown-item" href="fasilitas.html#wc">Kamar Mandi/WC</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">Kontak</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Blog -->
+    <div class="container py-5 content-blog text-center">
+        <h1 style="font-weight: bold;">Blog</h1>
+        <p>Update seputar sekolah</p>
+        <!-- Content Blog -->
+        <div class="d-flex flex-column">
+            <!-- Blog 1 -->
+            <div class="row">
+                <div class="row mt-5 align-items-center blog-container" style="padding-bottom: 50px;">
+                    <div class="col-md-6 col-12">
+                        <img src="https://cdn.dribbble.com/userupload/12392312/file/original-a4e2f0c21f04b700df2e2940993decc4.png?resize=1024x692"
+                            alt="" height="340px" class="img-blog">
+                    </div>
+                    <div class="col-md-6 col-12 desc-fasilitas text-start">
+                        <h1 style="font-weight: bold;">Ulangan Akhir Semester</h1>
+                        <p>18 Desember 2023</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur, natus officiis veniam
+                            ea nam
+                            at temporibus sed ab iste quos mollitia ullam perspiciatis doloribus, omnis labore deleniti
+                            ducimus
+                            hic est sequi cum eligendi? Illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, vel?</p>
+                        <button class="btn btn-primary btn-desk" onclick="showBlog1()">View More</button>
+                    </div>
+                    <button class="btn btn-primary btn-tab" onclick="showBlog1()">View More</button>
+                </div>
+            </div>
+            <!-- Blog 2 -->
+            <div class="row">
+                <div class="row mt-5 align-items-center blog-container" style="padding-bottom: 50px;">
+                    <div class="col-md-6 col-12">
+                        <img src="https://cdn.dribbble.com/userupload/12392312/file/original-a4e2f0c21f04b700df2e2940993decc4.png?resize=1024x692"
+                            alt="" height="340px" class="img-blog">
+                    </div>
+                    <div class="col-md-6 col-12 desc-fasilitas text-start">
+                        <h1 style="font-weight: bold;">HUT RI</h1>
+                        <p>18 Desember 2023</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur, natus officiis veniam
+                            ea nam
+                            at temporibus sed ab iste quos mollitia ullam perspiciatis doloribus, omnis labore deleniti
+                            ducimus
+                            hic est sequi cum eligendi? Illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, vel?</p>
+                        <button class="btn btn-primary btn-desk" onclick="showBlog2()">View More</button>
+                    </div>
+                    <button class="btn btn-primary btn-tab" onclick="showBlog1()">View More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Blog -->
+
+
+
+    <!-- View More Blog -->
+
+    <!-- Blog 1 -->
+    <div class="container py-5 content-blog text-center" id="blog1" style="display: none;">
+        <div class="d-flex flex-column">
+            <!-- Blog 1 -->
+            <div class="row">
+                <div class="col-md-6 col-12 text-start" style="margin-top: 30px; margin-left: 20px; font-size: 16px;">
+                    <p><a href="blog.html" style="text-decoration: none; color: #000; font-weight: bold;"> Blog </a>>
+                        <span style="cursor: pointer;">Ulangan Akhir Semester</span></p>
+                </div>
+                <div class="row align-items-center blog-container">
+                    <div class="col-md-6 col-12">
+                        <img src="https://cdn.dribbble.com/userupload/12392312/file/original-a4e2f0c21f04b700df2e2940993decc4.png?resize=1024x692"
+                            alt="" height="340px" class="img-blog">
+                    </div>
+                    <div class="col-md-6 col-12 desc-fasilitas text-start">
+                        <h1 style="font-weight: bold;">Ulangan Akhir Semester</h1>
+                        <p>18 Desember 2023</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur, natus officiis veniam
+                            ea nam
+                            at temporibus sed ab iste quos mollitia ullam perspiciatis doloribus, omnis labore deleniti
+                            ducimus
+                            hic est sequi cum eligendi? Illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, vel?</p>
+                    </div>
+                </div>
+                <div class="row mt-5 align-items-center blog-container">
+                    <div class="col-12 desc-fasilitas text-start">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur, natus officiis veniam
+                            ea nam
+                            at temporibus sed ab iste quos mollitia ullam perspiciatis doloribus, omnis labore deleniti
+                            ducimus
+                            hic est sequi cum eligendi? Illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem debitis
+                            quisquam culpa. Sunt harum et quod aliquam sint earum sequi nemo veniam voluptate minima ea
+                            ipsam, voluptatem veritatis asperiores rem illum iure! Quos a odio sit, ipsam corrupti
+                            itaque, quis cupiditate ipsum explicabo deleniti vitae sed beatae doloremque fugit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Blog 2 -->
+    <div class="container py-5 content-blog text-center" id="blog2" style="display: none;">
+        <div class="d-flex flex-column">
+            <!-- Blog 1 -->
+            <div class="row">
+                <div class="col-md-6 col-12 text-start" style="margin-top: 30px; margin-left: 20px; font-size: 16px;">
+                    <p><a href="blog.html" style="text-decoration: none; color: #000; font-weight: bold;"> Blog </a>>
+                        <span style="cursor: pointer;">HUT RI</span></p>
+                </div>
+                <div class="row mt-5 align-items-center blog-container">
+                    <div class="col-md-6 col-12">
+                        <img src="https://cdn.dribbble.com/userupload/12392312/file/original-a4e2f0c21f04b700df2e2940993decc4.png?resize=1024x692"
+                            alt="" height="340px" class="img-blog">
+                    </div>
+                    <div class="col-md-6 col-12 desc-fasilitas text-start">
+                        <h1 style="font-weight: bold;">HUT RI</h1>
+                        <p>18 Desember 2023</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur, natus officiis veniam
+                            ea nam
+                            at temporibus sed ab iste quos mollitia ullam perspiciatis doloribus, omnis labore deleniti
+                            ducimus
+                            hic est sequi cum eligendi? Illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, vel?</p>
+                    </div>
+                </div>
+                <div class="row align-items-center blog-container">
+                    <div class="col-12 desc-fasilitas text-start">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis tenetur, natus officiis veniam
+                            ea nam
+                            at temporibus sed ab iste quos mollitia ullam perspiciatis doloribus, omnis labore deleniti
+                            ducimus
+                            hic est sequi cum eligendi? Illum! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Odit, vel? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita quidem debitis
+                            quisquam culpa. Sunt harum et quod aliquam sint earum sequi nemo veniam voluptate minima ea
+                            ipsam, voluptatem veritatis asperiores rem illum iure! Quos a odio sit, ipsam corrupti
+                            itaque, quis cupiditate ipsum explicabo deleniti vitae sed beatae doloremque fugit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Informasi Kontak</h5>
+                    <p>Alamat : Jalan Contoh No. 123, Kota Contoh</p>
+                    <p>Email : info@vandraschool.com</p>
+                    <p>Telepon : (123) 456-7890</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Ikuti Kami</h5>
+                    <a href="#" class="text-light"><i class="fab fa-facebook me-2" style="font-size: 24px;"></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-twitter me-2" style="font-size: 24px;"></i></i></a>
+                    <a href="#" class="text-light"><i class="fab fa-instagram" style="font-size: 24px;"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-3">
+            <p>&copy; 2024 Vandra School. Hak Cipta Dilindungi. Developed By Kevin Andra</p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="Assets/script.js"></script>
+</body>
+
+</html>
